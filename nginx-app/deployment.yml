@@ -16,8 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: quay.io/mayank123modi/mynginx
         name: nginx
-        imagePullPolicy: Always
         ports: 
         - containerPort: 80
